@@ -1,0 +1,64 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#details-form {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+#name-area {
+  display: inline-block;
+  width: 30%;
+}
+
+#profession-area {
+  display: inline-block;
+  width: 30%;
+}
+
+#age-area {
+  display: inline-block;
+  width: 30%;
+}
+
+input {
+  margin: 5px;
+  border-radius: 5px;
+  width: 300px;
+  height: 20px;
+  display: block;
+  background-color: black;
+  border-color: white;
+  color: white;
+}
+
+label {
+  margin: 5px;
+  font-size: 18px;
+}
+
+button {
+  margin: 5px;
+  display: block;
+  width: 120px;
+  height: 35px;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+#is-successful {
+  margin: 5px;
+  font-size: 18px;
+}
+
+#employee-count {
+  color: rgb(197, 197, 197);
+}
+
+/* #employee-table {
+  display: block;
+} */
